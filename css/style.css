@@ -3013,8 +3013,8 @@ textarea.input {
     position: absolute;
     top: 25px;
     right: 30px;
-    width: 30px;
-    height: 18px;
+    width: 35px;
+    height: 22px;
     cursor: pointer;
     z-index: 5;
   }
@@ -3145,6 +3145,12 @@ textarea.input {
 }
 
 @media (max-width: 479.98px) {
+  .icon-menu {
+    right: 20px;
+    height: 18px;
+    width: 30px;
+  }
+
   .contact-us {
     display: none;
   }
