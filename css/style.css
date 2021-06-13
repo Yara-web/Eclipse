@@ -3509,6 +3509,7 @@ textarea.input {
             justify-content: space-evenly;
     display: inline-block;
     margin: 0px auto;
+    max-width: 245px;
   }
 
   .form__email {
