@@ -2856,7 +2856,7 @@ textarea.input {
 
 @media (min-width: 767.98px) {
   .form input {
-    max-width: 270px;
+    width: 270px;
     height: 60px;
     line-height: 150%;
   }
@@ -3100,6 +3100,10 @@ textarea.input {
   .form__inp-email {
     background: #ffffff url("../img/icon/right.svg") 210px center no-repeat;
     height: 50px;
+  }
+
+  .form input {
+    width: 245px;
   }
 
   .form__button {
