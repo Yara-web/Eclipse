@@ -3256,7 +3256,7 @@ textarea.input {
 
 @media (min-width: 767.98px) {
   .form input {
-    width: 270px;
+    width: 245px;
     height: 60px;
     line-height: 150%;
   }
@@ -3521,8 +3521,8 @@ textarea.input {
 
   .form__inp-email {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+        -ms-flex: 0 0 245px;
+            flex: 0 0 245px;
     background: #ffffff url("../img/icon/right.svg") 210px center no-repeat;
     height: 50px;
   }
