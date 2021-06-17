@@ -1792,6 +1792,26 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   text-align: center;
 }
 
+.arrow-up {
+  z-index: 10;
+  position: absolute;
+  left: 5%;
+  bottom: 7%;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-image: url("../img/icon/arr-up.svg");
+  background-color: #919191;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.arrow-up__top {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
 .page__hero {
   position: absolute;
   width: 100%;
@@ -2782,6 +2802,7 @@ textarea.input {
   top: 55%;
   -webkit-animation: arrow_blue 1.3s infinite linear;
           animation: arrow_blue 1.3s infinite linear;
+  text-align: center;
 }
 
 .circle_three {
@@ -3721,6 +3742,10 @@ textarea.input {
 		margin: 0px 0px 100px 0px; */
   }
 
+  .features__content {
+    padding: 100px 0px 100px 0px;
+  }
+
   ._no-webp .face{
     background-image: url("../img/face/head_bgMob.png"); }
 
@@ -3759,6 +3784,12 @@ textarea.input {
     right: 20px;
     height: 18px;
     width: 30px;
+  }
+
+  .arrow-up {
+    bottom: 4%;
+    width: 40px;
+    height: 40px;
   }
 
   .contact-us {
